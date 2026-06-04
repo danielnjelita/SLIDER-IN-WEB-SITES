@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <section>
@@ -13,6 +14,21 @@
         <img class="mySlides" src="Image 4.jpg" style="height: 500px; width: 100%;" alt="mySlides">
         <img class="mySlides" src="Image 5.jpg" style="height: 500px; width: 100%;" alt="mySlides">
     </section>
+
+        <div class="pigmg1"> 
+            <div class="ptext">
+                <span class="border trans">Welcome all to this website</span>
+            </div>
+        </div>
+        <section class="section section-dark">
+            <h2>Section One</h2>
+            <p>Web development is the work involved in developing a web site for the internet (World Wide) or an internet</p>
+        </section>
+        <div class="pimg3">
+            <div class="ptext">
+                <span class="border trans">Image Two Text</span>
+            </div>
+        </div>
     <script>
         var myIndex =0;
         carouse() {
@@ -25,8 +41,9 @@
             if (myIndex > x.length) {myIndex = 1}
         x[myIndex-1].style.display = "block";
         setTimeout(carousel, 3000);
+      {
       }
-        
+    }
     </script>
 
 </body>
